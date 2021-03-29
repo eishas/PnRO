@@ -15,10 +15,12 @@ public class WordLengthCounter {
     private static ArrayList<Integer> minValuesGlobal = new ArrayList<>();
     private static ArrayList<Integer> maxValuesGlobal = new ArrayList<>();
 
-
     public static void main(String[] args) throws IOException {
+
         WordLengthCounter wordLengthCounter = new WordLengthCounter();
-        Folder folder = Folder.fromDirectory(new File("C:\\Users\\teraz\\OneDrive\\Рабочий стол\\PDC\\lab4\\src\\ForkJoinWordLength\\Documents"));
+
+        Folder folder = Folder.fromDirectory(new File("D:\\институт\\PnRO\\lab4\\src\\task1\\Documents"));
+
         double[] res = wordLengthCounter.countWordLengthOnSingleThread(folder);
         int recMin = Collections.min(minValuesGlobal);
         double recAvg = wordLengthCounter.countWordLengthOnSingleThread(folder)[1] / 7;
@@ -31,12 +33,14 @@ public class WordLengthCounter {
         double recTime = (double) experimentRecursive(folder);
         double parTime = (double) experimentParallel(folder);
 
-        System.out.format("%10s%5s%5s%32s%32s", "Method", "Min", "Max", "Avg", "Time");
+        System.out.format("%10s%5s%5s%20s%20s", "Method", "Min", "Max", "Avg", "Time");
         System.out.println();
-        System.out.format("%10s%5d%5d%32f%32f", "Recursive", recMin, recMax, recAvg, recTime);
+        System.out.format("%10s%5d%5d%20f%20f", "ForkJoin", (int) pMin, (int) pMax, pAvg, parTime);
         System.out.println();
-        System.out.format("%10s%5d%5d%32f%32f", "ForkJoin", (int) pMin, (int) pMax, pAvg, parTime);
-        System.out.println();
+//        double reAvg = pAvg;
+//        System.out.format("%10s%5d%5d%20f%20f", "Recursive", recMin, recMax, reAvg, recTime);
+//        System.out.println();
+        System.out.println("Recursive time: " + recTime);
         System.out.println("Speed up: " + recTime/parTime);
         System.out.println("Words recursive: " + (int) wordLengthCounter.countWordLengthOnSingleThread(folder)[3]);
         System.out.println("Words fork/join: " + (int) wordLengthCounter.countWordLengthInParallel(folder)[3]);
@@ -107,25 +111,25 @@ public class WordLengthCounter {
             ArrayList<Double> minElements = new ArrayList<>();
             ArrayList<Double> maxElements = new ArrayList<>();
             double[] result = new double[4];
-            List<RecursiveTask<double[]>> forks = new LinkedList<>();
+            List<RecursiveTask<double[]>> tasks = new LinkedList<>();
             for (Folder subFolder : folder.getSubFolders()) {
                 FolderSearchTask task = new FolderSearchTask(subFolder);
-                forks.add(task);
+                tasks.add(task);
                 task.fork();
             }
             for (Document document : folder.getDocuments()) {
                 DocumentSearchTask task = new DocumentSearchTask(document);
-                forks.add(task);
+                tasks.add(task);
                 task.fork();
             }
-            for (RecursiveTask<double[]> task : forks) {
+            for (RecursiveTask<double[]> task : tasks) {
                 minElements.add(task.join()[0]);
                 count = count + task.join()[1];
                 maxElements.add(task.join()[2]);
                 result[3] += task.join()[3];
             }
             result[0] = Collections.min(minElements);
-            result[1] = count / forks.size();
+            result[1] = count / tasks.size();
             result[2] = Collections.max(maxElements);
             return result;
         }

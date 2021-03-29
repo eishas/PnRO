@@ -9,7 +9,6 @@ import java.util.concurrent.RecursiveTask;
 public class ITWords {
 
     private static final ForkJoinPool forkJoinPool = new ForkJoinPool();
-    private static ArrayList<ArrayList<String>> documentsITWordsLists = new ArrayList<>();
 
     static List<String> itWordsToCompare = Arrays.asList("data", "internet",
             "computer", "software", "database", "electronics", "information", "system", "engineering",
@@ -17,7 +16,7 @@ public class ITWords {
 
     public static void main(String[] args) throws IOException {
         ITWords itWords = new ITWords();
-        Folder folder = Folder.fromDirectory(new File("C:\\Users\\teraz\\OneDrive\\Рабочий стол\\PDC\\lab4\\src\\task4\\Documents"));
+        Folder folder = Folder.fromDirectory(new File("D:\\институт\\PnRO\\lab4\\src\\task4\\Documents"));
         ArrayList<DocumentResult> documentResults = itWords.processITWords(folder);
         for (DocumentResult doc: documentResults){
             System.out.println("Document: " + doc.getDocumentName());

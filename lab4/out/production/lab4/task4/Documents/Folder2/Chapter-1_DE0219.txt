@@ -1,0 +1,47 @@
+ Physical Geology, First University of Saskatchewan Edition is used under a CC BY-NC-SA 4.0 International License
+                         Read this book online at http://openpress.usask.ca/physicalgeology/
+
+
+              Chapter 1. Introduction to Geology java
+        Adapted by Karla Panchuk, University of Saskatchewan from Physical Geology by Steven Earle
+
+
+Sasha
+
+              Figure 1.1 Badlands in southern Saskatchewan. Erosion has exposed layers of rock
+              going back more than 65 million years. Source: Karla Panchuk (2017) CC BY-SA 4.0
+
+
+Learning Objectives
+After reading this chapter, completing the exercises within it, and answering the Review Questions at the
+end, you should be able to:
+
+    •      Explain what geology is, and why we study Earth.
+    •      Describe the kinds of work that geologists do.
+    •      Explain what is meant by geological time.
+    •      Explain how the principle of uniformitarianism allows us to translate observations about Earth
+           today into knowledge about how Earth worked in the past.
+    •      Summarize the main idea behind the theory plate tectonics.
+
+1.1 What Is Geology?
+Geologists study Earth — its interior and its exterior surface, the rocks and other materials around us, and
+the processes that formed those materials. They study the changes that have occurred over the vast time-
+span of Earth’s history, and changes that might take place in the near future.
+
+Geology is a science, meaning that geological questions are investigated with deductive reasoning and
+scientific methodology. Geology is arguably the most interdisciplinary of all of the sciences because
+geologists must understand and apply other sciences, including physics, chemistry, biology, mathematics,
+astronomy, and more.
+
+
+
+
+Chapter 1. Introduction to Geology                                                                              1
+An aspect of geology that is unlike most of the other sciences is the role played by time — deep time —
+billions of years of it. When geologists study the evidence around them, they are often observing the results
+of are observing the results of events that took place thousands, millions, and even billions of years in the
+
+past, and which may still be ongoing. Many geological processes happen at incredibly slow rates —
+millimetres per year to centimetres per year — but because of the amount of time available, tiny changes
+can result in expansive oceans forming, or entire mountain ranges being worn away.
+

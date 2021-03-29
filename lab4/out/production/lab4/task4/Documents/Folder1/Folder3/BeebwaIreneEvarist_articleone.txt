@@ -1,0 +1,130 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/337569797
+
+java
+
+Information Technology and Computer Science
+
+Article in International Journal of Information Technology and Computer Science · November 2019
+DOI: 10.5815/ijitcs.2019.11.04
+
+
+Sasha
+
+CITATIONS                                                                                              READS
+
+2                                                                                                      19,580
+
+
+4 authors:
+
+             Irene Beebwa                                                                                         Mussa Dida
+             The Nelson Mandela African Institute of Science and Technology                                       The Nelson Mandela African Institute of Science and Technology
+             2 PUBLICATIONS 2 CITATIONS                                                                           43 PUBLICATIONS 54 CITATIONS
+
+                 SEE PROFILE                                                                                         SEE PROFILE
+
+
+
+             Musa Chacha                                                                                          Janeth Marwa
+             The Nelson Mandela African Institute of Science and Technology                                       The Nelson Mandela African Institute of Science and Technology
+             51 PUBLICATIONS 316 CITATIONS                                                                        7 PUBLICATIONS 32 CITATIONS
+
+                 SEE PROFILE                                                                                         SEE PROFILE
+
+
+
+
+Some of the authors of this publication are also working on these related projects:
+
+
+               Antimicrobial activity of medicinal plants in Northen Tanzania View project
+
+
+
+               Educational MS View project
+
+
+
+
+ All content following this page was uploaded by Irene Beebwa on 27 November 2019.
+
+ The user has requested enhancement of the downloaded file.
+I.J. Information Technology and Computer Science, 2019, 11, 34-43
+Published Online November 2019 in MECS (http://www.mecs-press.org/)
+DOI: 10.5815/ijitcs.2019.11.04
+
+
+
+   Stakeholders’ Attitude on the Use of ICT Tools
+      for Sustainable Propagation of Indigenous
+   Knowledge in Tanzania: A Case of Traditional
+       Medical Knowledge of Medicinal Plants
+                                                 Irene Evarist Beebwa
+          Nelson Mandela – African Institution of Science and Technology, P. O. Box 447, Arusha, Tanzania
+                           E-mail: beebwai@nm-aist.ac.tz or irenebeebwa@gmail.com
+
+                                 Janeth Marwa, Musa Chacha, Mussa Ally Dida
+          Nelson Mandela – African Institution of Science and Technology, P. O. Box 447, Arusha, Tanzania
+                         E-mail: {janeth.marwa, musa.chacha, mussa.ally}@nm- aist.ac.tz
+
+                 Received: 06 August 2019; Accepted: 25 August 2019; Published: 08 November 2019
+
+
+Abstract—Most local communities in Tanzania depend
+on herbal remedies as the primary source of health care                            I. INTRODUCTION
+and such knowledge have been stored in the minds of the
+elderly who pass it on orally to young generations.               Indigenous people are uniquely identified by the
+However, the method is not reliable, as there is a             practices of their cultural heritage in different aspects of
+                                                               social life that encompass food preparation and
+likelihood of gradual loss of such knowledge as the
+                                                               preservation, arts, crafts, clothing, housing, agricultural
+elderly become older and incapacitated. It is at the
+                                                               methods, use traditional medicine (TRM). [1,2]. The
+backdrop of such a scenario that this study investigated
+                                                               skills and practices of TRM methods of healing,
+the stakeholder’s attitude towards the use of information
+and communication technology tools in preserving               formulation process, dosage and local beliefs used in
+traditional medical knowledge in Tanzania. The study           maintaining health, are collectively referred to as
+                                                               traditional medical knowledge (TMK).
+also investigated the existing approaches for managing
+                                                                  Since antiquity, TRM has been used by many people to
+both traditional medical practitioners, herbaria activities
+                                                               treat and prevent both human and animal diseases [3].
+and the difficulties. Both quantitative and qualitative data
+were employed and the study covered Arusha, Kagera             Indeed traditional medical practices have been an
+and Dar es Salaam regions where 60 ethnobotanical              important component in the healthcare system in
+                                                               Tanzania [4]. Previous studies reports that the practice of
+researchers and 156 traditional medical practitioners were
+                                                               TRM is largely attributed to cultural, accessibility and
+involved. The collected data was analyzed using R and
+                                                               affordability preferences [5,6] and has gained its
+Tableau software. The study indicated that 75% of
+                                                               preeminence in the provision of primary healthcare for
+traditional medical practitioners use story-telling for
+preserving traditional medical knowledge; 86.53% of            local communities around the world thus reports from
+practitioners indicated that much of the knowledge has         World Health Organization (WHO) indicate that 80% of
+                                                               the population in Latin America, Asia and Africa directly
+disappeared over generations. More than half (69.87%) of
+                                                               or indirectly depend on herbal remedies [7–9].
+practitioners were aware of the existence of technological
+                                                               Furthermore, twenty five to thirty percent (25- 30%) of
+devices for accessing the internet and 80.5% of
+                                                               the current modern drugs are directly or indirectly
+researchers and practitioners believed that Information
+and Communication Technology tools have benefits in            derived from the traditionally known and used medicines
+the practice of traditional medicine. From the findings,       that include Phytomedicine or medicinal plants [10–12].
+                                                               Moreover, TRM can be exploited for possible
+the study came up with the ICT model solution that can
+                                                               commercialization by local communities [13].
+help in documenting, preserving and disseminating
+                                                                  Traditionally, TMK has been preserved orally by
+traditional medical knowledge and integrate the
+management of stakeholders in Tanzania.                        elderly senior members of the community [1,14].
+                                                               However, such preservation approach does not guarantee
+                                                               sustainable, successful and perpetual management of such
+Index     Terms—Traditional       medical    knowledge,
+                                                               a knowledge. This is because such knowledge can easily
+Traditional medicine, Extinction, Indigenous knowledge,
+                                                               be lost completely in case the individual with it gets
+ICT, Web-mobile, Digital systems.
+

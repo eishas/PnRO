@@ -56,7 +56,7 @@ public class JournalMain {
         long timeStart = System.currentTimeMillis();
         ForkJoinPool pool = new ForkJoinPool();
         pool.invoke(new RateTask(journal, " "));
-        //pool.shutdown();
+        pool.shutdown();
         long execTime = System.currentTimeMillis() - timeStart;
         System.out.println("Execution time:" + execTime + " ms");
         return execTime;

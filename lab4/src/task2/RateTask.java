@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.RecursiveAction;
+import java.util.concurrent.RecursiveTask;
 
 public class RateTask extends RecursiveAction {
     private final Journal journal;
@@ -33,10 +34,15 @@ public class RateTask extends RecursiveAction {
     @Override
     protected void compute() {
         List<RateTask> tasks = new LinkedList<>();
-        if (tutorName==" "){
+        if (tutorName.equals(" ")){
             for (String tutor: tutorNames){
                 RateTask task = new RateTask(journal, tutor);
                 tasks.add(task);
+                task.fork();
+            }
+            for (RateTask task : tasks) {
+                task.join();
+                //invokeAll(tasks);
             }
         }
         else {
